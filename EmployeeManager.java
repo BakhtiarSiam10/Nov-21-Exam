@@ -5,11 +5,11 @@ import java.util.*;
 
 public class EmployeeManager {
     public static void main(String[] args) {
-        // Check arguments
+        // Check for correct number arguments
         if (args[0].equals("l")) {
             System.out.println("Loading data ...");
             try {
-                BufferedReader r = new BufferedReader(
+                BufferedReader z = new BufferedReader(
                         new InputStreamReader(
                                 new FileInputStream("employees.txt")));
                 String l = r.readLine();
@@ -22,7 +22,7 @@ public class EmployeeManager {
             System.out.println("Data Loaded.");
         } else if (args[0].equals("s")) {
             System.out.println("Loading data ...");
-            try {
+            try {gi
                 BufferedReader r = new BufferedReader(
                         new InputStreamReader(
                                 new FileInputStream("employees.txt")));
